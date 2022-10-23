@@ -9,7 +9,52 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header id="header">
+      <div class="title">
+        <h1>My Portfolio</h1>
+      </div>
+      <div class="fluid"></div>
+      <div class="hamburger-menu">
+        <input type="checkbox" id="menu-btn-check" />
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        <!--ここからメニュー-->
+        <div class="menu-content">
+          <ul>
+            <li><a href="index.html#profile">PROFILE</a></li>
+            <li><a href="index.html#favorite">FAVORITE THINGS</a></li>
+            <li><a href="index.html#bonus">BONUS</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--ここまでメニュー-->
+    </header>
+    <main>
+      <div id="plofile-container">
+        <h3 class="title">PLOFILE</h3>
+        <ul class="main-list">
+          <li>name:Hiroyuki Tochihara</li>
+          <li>nickname:yuki</li>
+          <li>age:21</li>
+          <li>university:Waseda university</li>
+          <li>specialty:Shorinji Kempo</li>
+          <li>hobby:travel</li>
+        </ul>
+      </div>
+      <div id="favorite-container">
+        <h3 class="title">FAVORITE THINGS</h3>
+        <ul class="main-list">
+          <li>food:Curry</li>
+          <li>drink:Yakult1000</li>
+          <li>baseball team:Tokyo Yakult Swallows</li>
+          <li>artist:Hinatazaka46</li>
+        </ul>
+      </div>
+      <div id="bonus-container">
+        <h3 class="title">BONUS</h3>
+        <div class="fluid"></div>
+      </div>
+    </main>
+    <footer class="footer"><p>@yuki 2022</p></footer>
     <script src="main.js"></script>
   </body>
 </html>
