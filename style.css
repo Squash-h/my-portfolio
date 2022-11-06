@@ -12,8 +12,8 @@ header {
   padding: 60px;
 }
 .header-fluid {
-  width: 150px; /*横幅*/
-  height: 150px; /*縦幅*/
+  width: 20%; /*横幅*/
+  height: 20%; /*縦幅*/
   background: floralwhite; /*背景色*/
   animation: fluidrotate 30s ease 0s infinite; /*アニメーションの設定*/
   position: fixed;
